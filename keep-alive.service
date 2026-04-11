@@ -1,0 +1,12 @@
+[Unit]
+Description=Keep Alive Service
+After=sound.target
+Requires=sound.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/ffplay -f lavfi -i anullsrc=channel_layout=2:sample_rate=48000 -nodisp -loglevel quiet
+Restart=always
+
+[Install]
+WantedBy=default.target
