@@ -24,7 +24,7 @@ function install_ffmpeg() {
 which ffmpeg || install_ffmpeg
 
 # curl to output directory
-curl -LsSf https://raw.githubusercontent.com/thxrn13/audio-angel/refs/heads/main/keep-alive.service --output ~/.config/systemd/user/keep-alive.service
+curl -LsSf https://raw.githubusercontent.com/thxrn13/audio-angel/refs/heads/main/audio-angel.service --output ~/.config/systemd/user/audio-angel.service
 
 # enable and start service
 systemctl --user enable --now keep-alive.service
