@@ -6,8 +6,9 @@ A service to keep audio channels alive on Linux
 
 #### Dependencies
 
-[ ] FFmpeg - The installer will install FFmpeg if it is not already installed
-[ ] systemd/systemctl - Must be installed on the target system before running the installer
+- FFmpeg - The installer will install FFmpeg if it is not already installed
+
+- systemd/systemctl - Must be installed on the target system before running the installer
 
 #### Arch, Fedora, Debian, Brew
 
