@@ -27,4 +27,4 @@ which ffmpeg || install_ffmpeg
 curl -LsSf https://raw.githubusercontent.com/thxrn13/audio-angel/refs/heads/main/audio-angel.service --output ~/.config/systemd/user/audio-angel.service
 
 # enable and start service
-systemctl --user enable --now keep-alive.service
+systemctl --user enable --now audio-angel.service
