@@ -1,5 +1,5 @@
 [Unit]
-Description=Keep Alive Service
+Description=Audio Angel Service To Keep Sound Alive
 After=sound.target
 Requires=sound.target
 
