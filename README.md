@@ -13,7 +13,7 @@ A service to keep audio channels alive on Linux
 #### Arch, Fedora, Debian, Brew
 
 ```shell
-curl -LsSf https://thxrn13.8d6.org/audio-angel | sh
+curl -LsSf https://thxrn13.8d6.org/audio-angel | bash
 ```
 
 #### Manual Installation
