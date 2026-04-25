@@ -21,7 +21,7 @@ curl -LsSf https://thxrn13.8d6.org/audio-angel | sh
 cURL the service file to systemd user directory
 
 ```shell
-curl -LsSf https://github.com/thxrn13/audio-angel/blob/main/audio-angel.service --output ~/.config/systemd/user/audio-angel.service
+curl -LsSf https://raw.githubusercontent.com/thxrn13/audio-angel/refs/heads/main/audio-angel.service --output ~/.config/systemd/user/audio-angel.service
 ```
 
 Start and enable the service using systemctl
